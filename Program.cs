@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 namespace FindMaximumValue_UsingGeneric
 {
@@ -8,13 +9,13 @@ namespace FindMaximumValue_UsingGeneric
         {
             Console.WriteLine("Welcome TO Find_MaxValue_UsingGenerics");
             Console.WriteLine("Find_MaxValue Intiger");
-            int value = MaximumNumberCheck.MaximumIntegerNumber(10, 12, 13);
+            int value = MaximumNumberCheck.findMaximum(10, 12, 13);
             Console.WriteLine(value);
             Console.WriteLine("Find_MaxValue_Float");
-            double floatValue = MaximumNumberCheck.MaximumFloatNumber(55.5, 22.2, 33.3);
+            double floatValue = MaximumNumberCheck.findMaximum(55.5, 22.2, 33.3);
             Console.WriteLine(floatValue);
             Console.WriteLine("Find_Maximum String");
-            string stringValue = MaximumNumberCheck.MaximumString("Apple", "Banana", "Peach");
+            string stringValue = MaximumNumberCheck.findMaximum("Apple", "Banana", "Peach");
             Console.WriteLine(stringValue);
 
         }
