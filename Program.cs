@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace FindMaximumValue_UsingGeneric
 {
@@ -17,6 +16,10 @@ namespace FindMaximumValue_UsingGeneric
             Console.WriteLine("Find_Maximum String");
             string stringValue = MaximumNumberCheck.findMaximum("Apple", "Banana", "Peach");
             Console.WriteLine(stringValue);
+            Console.WriteLine("\nFind_Maximum ");
+            int[] arr = { 12, 45, 41, 22, 66, 77 };
+            GenricMaximum<int> generic = new GenricMaximum<int>(arr);
+            generic.PrintMAxValue();
 
         }
     }
