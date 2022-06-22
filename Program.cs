@@ -13,6 +13,10 @@ namespace FindMaximumValue_UsingGeneric
             Console.WriteLine("Find_MaxValue_Float");
             double floatValue = MaximumNumberCheck.MaximumFloatNumber(55.5, 22.2, 33.3);
             Console.WriteLine(floatValue);
+            Console.WriteLine("Find_Maximum String");
+            string stringValue = MaximumNumberCheck.MaximumString("Apple", "Banana", "Peach");
+            Console.WriteLine(stringValue);
+
         }
     }
 }
